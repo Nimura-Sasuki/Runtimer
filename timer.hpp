@@ -1,12 +1,13 @@
 #ifndef TIMER_HPP
 #define TIMER_HPP
-class Timer
+class Runtimer
 {
 private:
     
 public:
-    Timer();
-    ~Timer();
+    Runtimer();
+    void stop();
+    ~Runtimer();
 };
 
 #endif
